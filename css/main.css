@@ -48,4 +48,14 @@ aside{
   width:30%;
   background:#ff8000;
   float:left;
+  padding:20px;
+  box-sizing:border-box;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  clear: both;/*linpia apartir de aqui los float left*/
+  text-align:
+  padding: 20px 0px;
 }
