@@ -1,48 +1,46 @@
-* {
+*{
   margin: 0;
   padding: 0;
 }
 body{
-  background: black;
+  background: rgb(196, 22, 53);
 }
-header {
-  background: #fff;
+header, .main, footer{
   width: 90%;
   max-width: 1000px;
-  margin: 20px auto;
+  margin:20px auto;
 }
 
 header nav{
-  background: #black;
+  background: rgb(15, 210, 180);
   overflow: hidden;
-  /*ucultar el contenido que sobrepasa nuestro contenedor , si tenemos
-  un contenido muy grande no cabe en nuestro contenerdo
-  lo desaparecemos, otra nos limpia nuestros float left o float right
-  en el mismo espacio*/
 }
+/*ucultar el contenido que sobrepasa nuestro contenedor , si tenemos
+un contenido muy grande no cabe en nuestro contenerdo
+lo desaparecemos, otra nos limpia nuestros float left o float right
+en el mismo espacio*/
 
-header{
+header nav ul{
   list-style: none;
 }
 
-header nav ul li {
+header nav ul li{
   float: left;
-  display:block;
-  color:black;
-  text-decoration:none;
+}
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: rgb(30, 73, 61);
+    text-decoration: none;
+}
+header nav ul li a:hover {
+  background:rgb(156, 55, 0);
 }
 
-header nav ul li a:hover {
-  background:#75ACEC;
-}
-.main{
+.main .article {
   width:70%;
-  background:#fff;
-}
-.main .articles article {
-  padding: 20px;
-  background:#fff;
-  margin-bottom:20px; /*margin hacia abajo para realizar una separacion*/
+  float: left;
+  background: rgb(31, 53, 207);
 }
 aside{
   width:30%;
@@ -56,6 +54,6 @@ footer {
   background: #000;
   color: #fff;
   clear: both;/*linpia apartir de aqui los float left*/
-  text-align:
+  text-align: center;
   padding: 20px 0px;
 }
