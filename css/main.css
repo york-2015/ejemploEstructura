@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: black;
+}
+header {
+  background: #fff;
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+header nav{
+  background: #black;
+  overflow: hidden;
+  /*ucultar el contenido que sobrepasa nuestro contenedor , si tenemos
+  un contenido muy grande no cabe en nuestro contenerdo
+  lo desaparecemos, otra nos limpia nuestros float left o float right
+  en el mismo espacio*/
+}
+
+header{
+  list-style: none;
+}
+
+header nav ul li {
+  float: left;
+  display:block;
+  color:black;
+  text-decoration:none;
+}
+
+header nav ul li a:hover {
+  background:#75ACEC;
+}
+.main{
+  width:70%;
+  background:#fff;
+}
+.main .articles article {
+  padding: 20px;
+  background:#fff;
+  margin-bottom:20px; /*margin hacia abajo para realizar una separacion*/
+}
+aside{
+  width:30%;
+  background:#ff8000;
+  float:left;
+}
